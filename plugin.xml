@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <plugin id="cordova-plugin-elgin-minipdv"
-    version="0.0.1"
+    version="0.0.2"
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     
-    <name>cordova-plugin-m8</name>
+    <name>cordova-plugin-elgin-minipdv</name>
     <js-module name="main" src="www/main.js">
         <clobbers target="cordova.plugins.elgin.minipdv" />
     </js-module>
