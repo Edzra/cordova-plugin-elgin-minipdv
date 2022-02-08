@@ -1,7 +1,10 @@
 {
   "name": "cordova-plugin-elgin-minipdv",
-  "version": "0.0.2",
-  "description": "a cool cordova plugin for elgin",
+  "version": "0.0.3",
+  "description": "Cordova plugin for elgin`s minipdv devices.",
+  "dependencies": {
+    "cordova-plugin-androidx-adapter": "^1.1.3"
+  },
   "cordova": {
     "id": "cordova-plugin-elgin-minipdv",
     "platforms": [
@@ -17,7 +20,8 @@
     "cordova-android",
     "elgin",
     "minipdv",
-    "M8"
+    "M8",
+    "M10"
   ],
   "author": "elgin_dev",
   "license": "ISC",
